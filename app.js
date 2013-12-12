@@ -1,12 +1,11 @@
+var fs = require('fs');
 var SourceMapConsumer = require('source-map').SourceMapConsumer;
 
-var rawSourceMap = require('./srcmap.json');
+var rawSourceMap = JSON.parse(fs.readFileSync('./scripts.js.map', "utf8"));
 
 var smc = new SourceMapConsumer(rawSourceMap);
 
-//console.log(smc.sources);
-
 console.log(smc.originalPositionFor({
-	line: 2,
-	column: 8536
+	line: 1,
+	column: 10232
 }));
