@@ -1,0 +1,24 @@
+{
+  "name": "srcmap-test",
+  "version": "0.0.0",
+  "description": "srcmap-test",
+  "main": "app.js",
+  "dependencies": {
+    "source-map": "~0.1.31"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/m5m1th/srcmap-test.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "aec4f5fe7ef31be30e1fc57ffe2917f52ecd1028",
+  "bugs": {
+    "url": "https://github.com/m5m1th/srcmap-test/issues"
+  }
+}
